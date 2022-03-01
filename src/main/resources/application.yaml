@@ -1,0 +1,9 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+  datasource:
+    url: jdbc:mysql://localhost:3306/eventmaster-new?autoReconnect=true&useEncoding=true&characterEncoding=UTF-8
+    driver-class-name:  com.mysql.cj.jdbc.Driver
+    username: evm
+    password: 12345
