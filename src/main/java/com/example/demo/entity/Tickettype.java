@@ -19,16 +19,16 @@ public class Tickettype implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "createdBy", nullable = false)
+    @Column(name = "createdby", nullable = false)
     private String createdBy;
 
-    @Column(name = "createdDate", nullable = false)
+    @Column(name = "createddate", nullable = false)
     private Date createdDate;
 
-    @Column(name = "lastModifiedBy")
+    @Column(name = "lastmodifiedby")
     private String lastModifiedBy;
 
-    @Column(name = "lastModifiedDate")
+    @Column(name = "lastmodifieddate")
     private Date lastModifiedDate;
 
     @Column(name = "currency")
@@ -43,7 +43,7 @@ public class Tickettype implements Serializable {
     @Column(name = "event_id", nullable = false)
     private Long eventId;
 
-    @Column(name = "availableQuantity")
+    @Column(name = "availablequantity")
     private Long availableQuantity;
 
     @Column(name = "max")
@@ -52,19 +52,19 @@ public class Tickettype implements Serializable {
     @Column(name = "min")
     private Long min;
 
-    @Column(name = "dateFieldCode")
+    @Column(name = "datefieldcode")
     private String dateFieldCode;
 
-    @Column(name = "maxQuantityPerOrder")
+    @Column(name = "maxquantityperorder")
     private Long maxQuantityPerOrder;
 
-    @Column(name = "maxRestrictionDate")
+    @Column(name = "maxrestrictiondate")
     private Date maxRestrictionDate;
 
-    @Column(name = "minQuantityPerOrder")
+    @Column(name = "minquantityperorder")
     private Long minQuantityPerOrder;
 
-    @Column(name = "minRestrictionDate")
+    @Column(name = "minrestrictiondate")
     private Date minRestrictionDate;
 
     @Column(name = "type")
@@ -73,94 +73,94 @@ public class Tickettype implements Serializable {
     @Column(name = "serviceFee")
     private BigDecimal serviceFee;
 
-    @Column(name = "fixedServiceFee")
+    @Column(name = "fixedservicefee")
     private BigDecimal fixedServiceFee;
 
     @Column(name = "hideFromBooking")
     private Boolean hideFromBooking;
 
-    @Column(name = "hideFromBookingDate")
+    @Column(name = "hidefrombookingdate")
     private Date hideFromBookingDate;
 
-    @Column(name = "additionalText1")
+    @Column(name = "additionaltext1")
     private String additionalText1;
 
     @Column(name = "eticketsAmount")
     private Long eticketsAmount;
 
-    @Column(name = "enableAvailableQuantityFromGroup")
+    @Column(name = "enableavailablequantityfromgroup")
     private Boolean enableAvailableQuantityFromGroup;
 
-    @Column(name = "ticketTypeAvailabilityGroupName")
+    @Column(name = "tickettypeavailabilitygroupname")
     private String ticketTypeAvailabilityGroupName;
 
-    @Column(name = "feeType")
+    @Column(name = "feetype")
     private String feeType;
 
-    @Column(name = "remainingTranchQuantityToDisplay")
+    @Column(name = "remainingtranchquantitytodisplay")
     private Long remainingTranchQuantityToDisplay;
 
-    @Column(name = "includeInCIReport")
+    @Column(name = "includeincireport")
     private Boolean includeInCIReport;
 
     @Column(name = "sorting")
     private Long sorting;
 
-    @Column(name = "infoDescription")
+    @Column(name = "infodescription")
     private String infoDescription;
 
-    @Column(name = "hideCountSetting")
+    @Column(name = "hidecountsetting")
     private Integer hideCountSetting;
 
-    @Column(name = "enablePartialPayments")
+    @Column(name = "enablepartialpayments")
     private Boolean enablePartialPayments;
 
-    @Column(name = "hideSettingType")
+    @Column(name = "hidesettingtype")
     private String hideSettingType;
 
-    @Column(name = "hideWhenPreviousReleaseNotSold")
+    @Column(name = "hidewhenpreviousreleasenotsold")
     private Boolean hideWhenPreviousReleaseNotSold;
 
-    @Column(name = "releaseThresholdQuantity")
+    @Column(name = "releasethresholdquantity")
     private Long releaseThresholdQuantity;
 
-    @Column(name = "accessCode")
+    @Column(name = "accesscode")
     private String accessCode;
 
-    @Column(name = "accessCodeQuantity")
+    @Column(name = "accesscodequantity")
     private Integer accessCodeQuantity;
 
-    @Column(name = "accessKey")
+    @Column(name = "accesskey")
     private String accessKey;
 
-    @Column(name = "accessKeyQuantity")
+    @Column(name = "accesskeyquantity")
     private Integer accessKeyQuantity;
 
-    @Column(name = "refundPercentage")
+    @Column(name = "refundpercentage")
     private BigDecimal refundPercentage;
 
-    @Column(name = "noRegData")
+    @Column(name = "noregdata")
     private Boolean noRegData;
 
-    @Column(name = "enableAccessCodes")
+    @Column(name = "enableaccesscodes")
     private Boolean enableAccessCodes;
 
-    @Column(name = "imageName")
+    @Column(name = "imagename")
     private String imageName;
 
-    @Column(name = "showTicketTypeCloseDate")
+    @Column(name = "showtickettypeclosedate")
     private Date showTicketTypeCloseDate;
 
-    @Column(name = "showTicketTypeOpenDate")
+    @Column(name = "showtickettypeopendate")
     private Date showTicketTypeOpenDate;
 
-    @Column(name = "cyclingDateTime")
+    @Column(name = "cyclingdatetime")
     private String cyclingDateTime;
 
-    @Column(name = "cyclingDateUuid")
+    @Column(name = "cyclingdateuuid")
     private String cyclingDateUuid;
 
-    @Column(name = "cyclingSubCategory")
+    @Column(name = "cyclingsubcategory")
     private String cyclingSubCategory;
 
 }

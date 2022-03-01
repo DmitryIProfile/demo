@@ -18,31 +18,31 @@ public class Booking implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "createdBy", nullable = false)
+    @Column(name = "createdby", nullable = false)
     private String createdBy;
 
-    @Column(name = "createdDate", nullable = false)
+    @Column(name = "createddate", nullable = false)
     private Date createdDate;
 
-    @Column(name = "lastModifiedBy")
+    @Column(name = "lastmodifiedby")
     private String lastModifiedBy;
 
-    @Column(name = "lastModifiedDate")
+    @Column(name = "lastmodifieddate")
     private Date lastModifiedDate;
 
-    @Column(name = "eventId")
+    @Column(name = "eventid")
     private Long eventId;
 
     @Column(name = "status")
     private String status;
 
-    @Column(name = "timeslotId")
+    @Column(name = "timeslotid")
     private Long timeslotId;
 
-    @Column(name = "timeslotSelectDate")
+    @Column(name = "timeslotselectdate")
     private Date timeslotSelectDate;
 
-    @Column(name = "visitorId")
+    @Column(name = "visitorid")
     private String visitorId;
 
     @Column(name = "step")
@@ -51,25 +51,25 @@ public class Booking implements Serializable {
     @Column(name = "mode")
     private String mode;
 
-    @Column(name = "accessCodeId")
+    @Column(name = "accesscodeid")
     private Long accessCodeId;
 
-    @Column(name = "bundleId")
+    @Column(name = "bundleid")
     private Long bundleId;
 
-    @Column(name = "bundleBookingId")
+    @Column(name = "bundlebookingid")
     private Long bundleBookingId;
 
-    @Column(name = "queryString")
+    @Column(name = "querystring")
     private String queryString;
 
-    @Column(name = "eventPriceDiscountCodeId")
+    @Column(name = "eventpricediscountcodeid")
     private Long eventPriceDiscountCodeId;
 
-    @Column(name = "eventPriceDiscountId")
+    @Column(name = "eventpricediscountid")
     private Long eventPriceDiscountId;
 
-    @Column(name = "uniqueDiscountCode")
+    @Column(name = "uniquediscountcode")
     private String uniqueDiscountCode;
 
 }

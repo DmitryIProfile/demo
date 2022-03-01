@@ -24,55 +24,55 @@ public class Ticket implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "createdBy", nullable = false)
+    @Column(name = "createdby", nullable = false)
     private String createdBy;
 
-    @Column(name = "createdDate", nullable = false)
+    @Column(name = "createddate", nullable = false)
     private Date createdDate;
 
-    @Column(name = "lastModifiedBy")
+    @Column(name = "lastmodifiedby")
     private String lastModifiedBy;
 
-    @Column(name = "lastModifiedDate")
+    @Column(name = "lastmodifieddate")
     private Date lastModifiedDate;
 
     @Column(name = "barcode", nullable = false)
     private String barcode;
 
-    @Column(name = "bookingId")
+    @Column(name = "bookingid")
     private Long bookingId;
 
-    @Column(name = "eventId")
+    @Column(name = "eventid")
     private Long eventId;
 
     @Column(name = "fee")
     private BigDecimal fee;
 
-    @Column(name = "orderId")
+    @Column(name = "orderid")
     private Long orderId;
 
     @Column(name = "price")
     private BigDecimal price;
 
-    @Column(name = "registrantFormId")
+    @Column(name = "registrantformid")
     private Long registrantFormId;
 
-    @Column(name = "ticketSelectionId")
+    @Column(name = "ticketselectionid")
     private Long ticketSelectionId;
 
-    @Column(name = "ticketTypeId")
+    @Column(name = "tickettypeid")
     private Long ticketTypeId;
 
-    @Column(name = "timeslotId")
+    @Column(name = "timeslotid")
     private Long timeslotId;
 
     @Column(name = "uuid")
     private String uuid;
 
-    @Column(name = "formIndex")
+    @Column(name = "formindex")
     private Integer formIndex;
 
-    @Column(name = "ticketStatus")
+    @Column(name = "ticketstatus")
     private String ticketStatus;
 
     @Column(name = "raceNumber")
@@ -81,55 +81,55 @@ public class Ticket implements Serializable {
     @Column(name = "orderMode")
     private String orderMode;
 
-    @Column(name = "deviceId")
+    @Column(name = "deviceid")
     private String deviceId;
 
-    @Column(name = "scannedDate")
+    @Column(name = "scanneddate")
     private Date scannedDate;
 
     @Column(name = "cancelReason")
     private String cancelReason;
 
-    @Column(name = "linkToOldTicketId")
+    @Column(name = "linktooldticketid")
     private Long linkToOldTicketId;
 
-    @Column(name = "userId")
+    @Column(name = "userid")
     private Long userId;
 
-    @Column(name = "ownerEmail")
+    @Column(name = "owneremail")
     private String ownerEmail;
 
-    @Column(name = "isForgotten")
+    @Column(name = "isforgotten")
     private Boolean isForgotten;
 
-    @Column(name = "eventLevelDiscountAmount")
+    @Column(name = "eventleveldiscountamount")
     private BigDecimal eventLevelDiscountAmount;
 
-    @Column(name = "eventLevelDiscountFee")
+    @Column(name = "eventleveldiscountfee")
     private BigDecimal eventLevelDiscountFee;
 
-    @Column(name = "eventPriceDiscountCodeId")
+    @Column(name = "eventpricediscountcodeid")
     private Long eventPriceDiscountCodeId;
 
-    @Column(name = "eventPriceDiscountId")
+    @Column(name = "eventpricediscountid")
     private Long eventPriceDiscountId;
 
-    @Column(name = "ticketNumber")
+    @Column(name = "ticketnumber")
     private Long ticketNumber;
 
-    @Column(name = "groupDiscountAmount")
+    @Column(name = "groupdiscountamount")
     private BigDecimal groupDiscountAmount;
 
-    @Column(name = "groupDiscountFee")
+    @Column(name = "groupdiscountfee")
     private BigDecimal groupDiscountFee;
 
-    @Column(name = "checkIn")
+    @Column(name = "checkin")
     private Boolean checkIn;
 
-    @Column(name = "checkInDate")
+    @Column(name = "checkindate")
     private Date checkInDate;
 
-    @Column(name = "noRegData")
+    @Column(name = "noregdata")
     private Boolean noRegData;
 
     @Override
